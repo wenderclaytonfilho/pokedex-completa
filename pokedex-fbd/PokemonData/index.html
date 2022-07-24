@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/pokebola.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pokedex webapp utilizando a <span>PokeApi</span> para pegar dados!</h1>
+        <hr>
+        <div class="image">
+            <img src="img/pokemon-logo.png" alt="logo">
+        </div>
+        <form class="group-form">
+            <label>Nome ou número do Pokémon</label>
+            <input type="text" id="name" placeholder="Exemplo: Pikachu ou 25" required>
+            <input type="submit" value="BUSCAR">
+        </form>
+        <div id="imgPokemon">
+            <img src="img/frente.png">
+            <img src="img/costas.png">
+        </div>
+        <div id="content">
+            ...
+        </div>
+        <div>
+            <a href="../pokedex-master/index.html" target="_self">Acessar catálogo com os  primeiros 150 Pokémons!</a>
+        </div>
+        <div class="data">&copy Wender Clayton</div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
